@@ -9,5 +9,9 @@
     "karma-phantomjs-launcher": ">=0.1.0",
     "phantomjs": ">=1.9.2-5",
     "underscore": "^1.7.0"
+  },
+  "scripts": {
+      "start": "./node_modules/karma/bin/karma start --single-run",
+      "test": "./node_modules/karma/bin/karma start"
   }
 }
